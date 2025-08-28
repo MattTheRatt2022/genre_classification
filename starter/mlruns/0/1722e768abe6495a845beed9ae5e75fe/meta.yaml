@@ -1,0 +1,15 @@
+artifact_uri: file:///home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification/starter/mlruns/0/1722e768abe6495a845beed9ae5e75fe/artifacts
+end_time: 1756405709411
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1722e768abe6495a845beed9ae5e75fe
+run_name: grandiose-goat-158
+run_uuid: 1722e768abe6495a845beed9ae5e75fe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756405596276
+status: 3
+tags: []
+user_id: matt-the-ratt
