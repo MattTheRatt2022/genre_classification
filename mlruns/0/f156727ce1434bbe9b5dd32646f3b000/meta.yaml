@@ -1,0 +1,15 @@
+artifact_uri: file:///home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification/starter/mlruns/0/f156727ce1434bbe9b5dd32646f3b000/artifacts
+end_time: 1756401865469
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f156727ce1434bbe9b5dd32646f3b000
+run_name: calm-duck-173
+run_uuid: f156727ce1434bbe9b5dd32646f3b000
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756401788070
+status: 4
+tags: []
+user_id: matt-the-ratt

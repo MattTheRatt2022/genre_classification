@@ -1,0 +1,93 @@
+{
+    "os": "Linux-6.14.0-28-generic-x86_64-with-glibc2.39",
+    "python": "3.10.18",
+    "heartbeatAt": "2025-08-28T18:27:44.245239",
+    "startedAt": "2025-08-28T18:27:43.579726",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--train_data",
+        "data_train.csv:latest",
+        "--model_config",
+        "/home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification/starter/outputs/2025-08-28/13-26-39/random_forest_config.yml",
+        "--export_artifact",
+        "model_export",
+        "--random_seed",
+        "42",
+        "--val_size",
+        "0.3",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "/home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification/starter/random_forest/run.py",
+    "codePathLocal": "run.py",
+    "codePath": "starter/random_forest/run.py",
+    "git": {
+        "remote": "https://github.com/MattTheRatt2022/genre_classification.git",
+        "commit": "afe1f9ac9806ec16c0a34187ba499a4f2026a9ff"
+    },
+    "email": "matthewzm15@gmail.com",
+    "root": "/home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification",
+    "host": "Ratts-pc",
+    "username": "matt-the-ratt",
+    "executable": "/home/matt-the-ratt/miniconda3/envs/mlflow-5ce08cdacbbbaafb898bcf895f0124f1d478d1fe/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2606.5007499999997,
+        "min": 400.0,
+        "max": 4700.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2869.037,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 2374.863,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1631.72,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 2996.098,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1975.708,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 477.651,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 3000.0,
+            "min": 400.0,
+            "max": 4700.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 936.7875633239746,
+            "used": 32.240657806396484
+        }
+    },
+    "memory": {
+        "total": 15.300792694091797
+    }
+}

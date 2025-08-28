@@ -1,0 +1,190 @@
+2025-08-28 13:26:58,412 INFO    StreamThr :70770 [internal.py:wandb_internal():86] W&B internal server running at pid: 70770, started at: 2025-08-28 13:26:58.411628
+2025-08-28 13:26:58,415 DEBUG   HandlerThread:70770 [handler.py:handle_request():146] handle_request: status
+2025-08-28 13:26:58,420 INFO    WriterThread:70770 [datastore.py:open_for_write():87] open: /home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification/starter/preprocess/wandb/run-20250828_132658-0x3ao7h1/run-0x3ao7h1.wandb
+2025-08-28 13:26:58,421 DEBUG   SenderThread:70770 [sender.py:send():378] send: header
+2025-08-28 13:26:58,425 DEBUG   SenderThread:70770 [sender.py:send():378] send: run
+2025-08-28 13:26:58,811 INFO    SenderThread:70770 [dir_watcher.py:__init__():211] watching files in: /home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification/starter/preprocess/wandb/run-20250828_132658-0x3ao7h1/files
+2025-08-28 13:26:58,811 INFO    SenderThread:70770 [sender.py:_start_run_threads():1099] run started: 0x3ao7h1 with start time 1756405618.411547
+2025-08-28 13:26:58,830 DEBUG   HandlerThread:70770 [handler.py:handle_request():146] handle_request: check_version
+2025-08-28 13:26:58,830 DEBUG   SenderThread:70770 [sender.py:send_request():405] send_request: check_version
+2025-08-28 13:26:58,972 DEBUG   HandlerThread:70770 [handler.py:handle_request():146] handle_request: run_start
+2025-08-28 13:26:58,973 DEBUG   HandlerThread:70770 [system_info.py:__init__():26] System info init
+2025-08-28 13:26:58,974 DEBUG   HandlerThread:70770 [system_info.py:__init__():41] System info init done
+2025-08-28 13:26:58,974 INFO    HandlerThread:70770 [system_monitor.py:start():194] Starting system monitor
+2025-08-28 13:26:58,974 INFO    SystemMonitor:70770 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-08-28 13:26:58,975 INFO    HandlerThread:70770 [system_monitor.py:probe():214] Collecting system info
+2025-08-28 13:26:58,976 INFO    SystemMonitor:70770 [interfaces.py:start():190] Started cpu monitoring
+2025-08-28 13:26:58,976 INFO    SystemMonitor:70770 [interfaces.py:start():190] Started disk monitoring
+2025-08-28 13:26:58,977 INFO    SystemMonitor:70770 [interfaces.py:start():190] Started memory monitoring
+2025-08-28 13:26:58,978 INFO    SystemMonitor:70770 [interfaces.py:start():190] Started network monitoring
+2025-08-28 13:26:58,988 DEBUG   HandlerThread:70770 [system_info.py:probe():150] Probing system
+2025-08-28 13:26:58,990 DEBUG   HandlerThread:70770 [system_info.py:_probe_git():135] Probing git
+2025-08-28 13:26:58,999 DEBUG   HandlerThread:70770 [system_info.py:_probe_git():143] Probing git done
+2025-08-28 13:26:58,999 DEBUG   HandlerThread:70770 [system_info.py:probe():198] Probing system done
+2025-08-28 13:26:58,999 DEBUG   HandlerThread:70770 [system_monitor.py:probe():223] {'os': 'Linux-6.14.0-28-generic-x86_64-with-glibc2.39', 'python': '3.10.18', 'heartbeatAt': '2025-08-28T18:26:58.988909', 'startedAt': '2025-08-28T18:26:58.404456', 'docker': None, 'cuda': None, 'args': ('--input_artifact', 'raw_data.parquet:latest', '--artifact_name', 'preprocessed_data.csv', '--artifact_type', 'preprocessed_data', '--artifact_description', 'Data after preprocessing'), 'state': 'running', 'program': '/home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification/starter/preprocess/run.py', 'codePathLocal': 'run.py', 'codePath': 'starter/preprocess/run.py', 'git': {'remote': 'https://github.com/MattTheRatt2022/genre_classification.git', 'commit': 'afe1f9ac9806ec16c0a34187ba499a4f2026a9ff'}, 'email': 'matthewzm15@gmail.com', 'root': '/home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification', 'host': 'Ratts-pc', 'username': 'matt-the-ratt', 'executable': '/home/matt-the-ratt/miniconda3/envs/mlflow-b662b891138f514f86ea83df6f384dc4f23b43c1/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 952.3164999999999, 'min': 400.0, 'max': 4700.0}, 'cpu_freq_per_core': [{'current': 399.07, 'min': 400.0, 'max': 4700.0}, {'current': 1300.0, 'min': 400.0, 'max': 4700.0}, {'current': 1066.387, 'min': 400.0, 'max': 4700.0}, {'current': 699.942, 'min': 400.0, 'max': 4700.0}, {'current': 400.257, 'min': 400.0, 'max': 4700.0}, {'current': 1300.013, 'min': 400.0, 'max': 4700.0}, {'current': 400.631, 'min': 400.0, 'max': 4700.0}, {'current': 400.0, 'min': 400.0, 'max': 4700.0}], 'disk': {'/': {'total': 936.7875633239746, 'used': 32.2401123046875}}, 'memory': {'total': 15.300792694091797}}
+2025-08-28 13:26:58,999 INFO    HandlerThread:70770 [system_monitor.py:probe():224] Finished collecting system info
+2025-08-28 13:26:58,999 INFO    HandlerThread:70770 [system_monitor.py:probe():227] Publishing system info
+2025-08-28 13:26:58,999 DEBUG   HandlerThread:70770 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2025-08-28 13:26:59,812 INFO    Thread-12 :70770 [dir_watcher.py:_on_file_created():271] file/dir created: /home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification/starter/preprocess/wandb/run-20250828_132658-0x3ao7h1/files/conda-environment.yaml
+2025-08-28 13:26:59,898 DEBUG   HandlerThread:70770 [system_info.py:_save_conda():219] Saving conda packages done
+2025-08-28 13:26:59,898 INFO    HandlerThread:70770 [system_monitor.py:probe():229] Finished publishing system info
+2025-08-28 13:26:59,900 DEBUG   SenderThread:70770 [sender.py:send():378] send: files
+2025-08-28 13:26:59,900 INFO    SenderThread:70770 [sender.py:_save_file():1365] saving file wandb-metadata.json with policy now
+2025-08-28 13:26:59,927 DEBUG   HandlerThread:70770 [handler.py:handle_request():146] handle_request: python_packages
+2025-08-28 13:26:59,927 DEBUG   HandlerThread:70770 [handler.py:handle_request():146] handle_request: stop_status
+2025-08-28 13:26:59,927 DEBUG   SenderThread:70770 [sender.py:send_request():405] send_request: python_packages
+2025-08-28 13:26:59,928 DEBUG   SenderThread:70770 [sender.py:send_request():405] send_request: stop_status
+2025-08-28 13:26:59,930 DEBUG   HandlerThread:70770 [handler.py:handle_request():146] handle_request: internal_messages
+2025-08-28 13:27:00,130 DEBUG   SenderThread:70770 [sender.py:send():378] send: telemetry
+2025-08-28 13:27:00,244 INFO    wandb-upload_0:70770 [upload_job.py:push():131] Uploaded file /tmp/tmpfl9qfcfrwandb/z6xl23qo-wandb-metadata.json
+2025-08-28 13:27:00,606 DEBUG   SenderThread:70770 [sender.py:send():378] send: use_artifact
+2025-08-28 13:27:00,812 INFO    Thread-12 :70770 [dir_watcher.py:_on_file_created():271] file/dir created: /home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification/starter/preprocess/wandb/run-20250828_132658-0x3ao7h1/files/wandb-metadata.json
+2025-08-28 13:27:00,812 INFO    Thread-12 :70770 [dir_watcher.py:_on_file_created():271] file/dir created: /home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification/starter/preprocess/wandb/run-20250828_132658-0x3ao7h1/files/requirements.txt
+2025-08-28 13:27:00,813 INFO    Thread-12 :70770 [dir_watcher.py:_on_file_created():271] file/dir created: /home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification/starter/preprocess/wandb/run-20250828_132658-0x3ao7h1/files/output.log
+2025-08-28 13:27:01,524 DEBUG   HandlerThread:70770 [handler.py:handle_request():146] handle_request: log_artifact
+2025-08-28 13:27:01,525 DEBUG   SenderThread:70770 [sender.py:send_request():405] send_request: log_artifact
+2025-08-28 13:27:02,147 INFO    SenderThread:70770 [sender.py:send_request_log_artifact():1431] logged artifact preprocessed_data.csv - {'id': 'QXJ0aWZhY3Q6MTk5NjEyMDUwMA==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjcyNjk4MjA1NQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTk5NjEyMDUwMA==', 'versionIndex': 0}}}
+2025-08-28 13:27:02,147 DEBUG   SenderThread:70770 [sender.py:send():378] send: exit
+2025-08-28 13:27:02,147 INFO    SenderThread:70770 [sender.py:send_exit():585] handling exit code: 0
+2025-08-28 13:27:02,148 INFO    SenderThread:70770 [sender.py:send_exit():587] handling runtime: 2
+2025-08-28 13:27:02,148 INFO    SenderThread:70770 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2025-08-28 13:27:02,149 INFO    SenderThread:70770 [sender.py:send_exit():593] send defer
+2025-08-28 13:27:02,149 DEBUG   HandlerThread:70770 [handler.py:handle_request():146] handle_request: defer
+2025-08-28 13:27:02,149 INFO    HandlerThread:70770 [handler.py:handle_request_defer():172] handle defer: 0
+2025-08-28 13:27:02,150 DEBUG   SenderThread:70770 [sender.py:send_request():405] send_request: defer
+2025-08-28 13:27:02,150 INFO    SenderThread:70770 [sender.py:send_request_defer():609] handle sender defer: 0
+2025-08-28 13:27:02,150 INFO    SenderThread:70770 [sender.py:transition_state():613] send defer: 1
+2025-08-28 13:27:02,150 DEBUG   HandlerThread:70770 [handler.py:handle_request():146] handle_request: defer
+2025-08-28 13:27:02,150 INFO    HandlerThread:70770 [handler.py:handle_request_defer():172] handle defer: 1
+2025-08-28 13:27:02,150 DEBUG   SenderThread:70770 [sender.py:send_request():405] send_request: defer
+2025-08-28 13:27:02,150 INFO    SenderThread:70770 [sender.py:send_request_defer():609] handle sender defer: 1
+2025-08-28 13:27:02,151 INFO    SenderThread:70770 [sender.py:transition_state():613] send defer: 2
+2025-08-28 13:27:02,151 DEBUG   HandlerThread:70770 [handler.py:handle_request():146] handle_request: defer
+2025-08-28 13:27:02,151 INFO    HandlerThread:70770 [handler.py:handle_request_defer():172] handle defer: 2
+2025-08-28 13:27:02,151 INFO    HandlerThread:70770 [system_monitor.py:finish():203] Stopping system monitor
+2025-08-28 13:27:02,151 DEBUG   SystemMonitor:70770 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-08-28 13:27:02,151 DEBUG   SystemMonitor:70770 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-08-28 13:27:02,151 DEBUG   SystemMonitor:70770 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-08-28 13:27:02,152 INFO    HandlerThread:70770 [interfaces.py:finish():202] Joined cpu monitor
+2025-08-28 13:27:02,153 INFO    HandlerThread:70770 [interfaces.py:finish():202] Joined disk monitor
+2025-08-28 13:27:02,153 INFO    HandlerThread:70770 [interfaces.py:finish():202] Joined memory monitor
+2025-08-28 13:27:02,153 INFO    HandlerThread:70770 [interfaces.py:finish():202] Joined network monitor
+2025-08-28 13:27:02,154 DEBUG   SenderThread:70770 [sender.py:send_request():405] send_request: defer
+2025-08-28 13:27:02,154 INFO    SenderThread:70770 [sender.py:send_request_defer():609] handle sender defer: 2
+2025-08-28 13:27:02,154 INFO    SenderThread:70770 [sender.py:transition_state():613] send defer: 3
+2025-08-28 13:27:02,154 DEBUG   HandlerThread:70770 [handler.py:handle_request():146] handle_request: defer
+2025-08-28 13:27:02,154 INFO    HandlerThread:70770 [handler.py:handle_request_defer():172] handle defer: 3
+2025-08-28 13:27:02,154 DEBUG   SenderThread:70770 [sender.py:send_request():405] send_request: defer
+2025-08-28 13:27:02,154 INFO    SenderThread:70770 [sender.py:send_request_defer():609] handle sender defer: 3
+2025-08-28 13:27:02,154 INFO    SenderThread:70770 [sender.py:transition_state():613] send defer: 4
+2025-08-28 13:27:02,155 DEBUG   HandlerThread:70770 [handler.py:handle_request():146] handle_request: defer
+2025-08-28 13:27:02,155 INFO    HandlerThread:70770 [handler.py:handle_request_defer():172] handle defer: 4
+2025-08-28 13:27:02,155 DEBUG   SenderThread:70770 [sender.py:send_request():405] send_request: defer
+2025-08-28 13:27:02,155 INFO    SenderThread:70770 [sender.py:send_request_defer():609] handle sender defer: 4
+2025-08-28 13:27:02,155 INFO    SenderThread:70770 [sender.py:transition_state():613] send defer: 5
+2025-08-28 13:27:02,156 DEBUG   HandlerThread:70770 [handler.py:handle_request():146] handle_request: defer
+2025-08-28 13:27:02,156 INFO    HandlerThread:70770 [handler.py:handle_request_defer():172] handle defer: 5
+2025-08-28 13:27:02,156 DEBUG   SenderThread:70770 [sender.py:send():378] send: summary
+2025-08-28 13:27:02,157 INFO    SenderThread:70770 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2025-08-28 13:27:02,157 DEBUG   SenderThread:70770 [sender.py:send_request():405] send_request: defer
+2025-08-28 13:27:02,157 INFO    SenderThread:70770 [sender.py:send_request_defer():609] handle sender defer: 5
+2025-08-28 13:27:02,157 INFO    SenderThread:70770 [sender.py:transition_state():613] send defer: 6
+2025-08-28 13:27:02,157 DEBUG   HandlerThread:70770 [handler.py:handle_request():146] handle_request: defer
+2025-08-28 13:27:02,157 INFO    HandlerThread:70770 [handler.py:handle_request_defer():172] handle defer: 6
+2025-08-28 13:27:02,158 DEBUG   SenderThread:70770 [sender.py:send_request():405] send_request: defer
+2025-08-28 13:27:02,158 INFO    SenderThread:70770 [sender.py:send_request_defer():609] handle sender defer: 6
+2025-08-28 13:27:02,163 DEBUG   HandlerThread:70770 [handler.py:handle_request():146] handle_request: status_report
+2025-08-28 13:27:02,272 INFO    SenderThread:70770 [sender.py:transition_state():613] send defer: 7
+2025-08-28 13:27:02,272 DEBUG   HandlerThread:70770 [handler.py:handle_request():146] handle_request: defer
+2025-08-28 13:27:02,272 INFO    HandlerThread:70770 [handler.py:handle_request_defer():172] handle defer: 7
+2025-08-28 13:27:02,273 DEBUG   SenderThread:70770 [sender.py:send_request():405] send_request: defer
+2025-08-28 13:27:02,273 INFO    SenderThread:70770 [sender.py:send_request_defer():609] handle sender defer: 7
+2025-08-28 13:27:02,534 DEBUG   HandlerThread:70770 [handler.py:handle_request():146] handle_request: poll_exit
+2025-08-28 13:27:02,813 INFO    Thread-12 :70770 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification/starter/preprocess/wandb/run-20250828_132658-0x3ao7h1/files/config.yaml
+2025-08-28 13:27:02,822 INFO    Thread-12 :70770 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification/starter/preprocess/wandb/run-20250828_132658-0x3ao7h1/files/output.log
+2025-08-28 13:27:02,822 INFO    Thread-12 :70770 [dir_watcher.py:_on_file_created():271] file/dir created: /home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification/starter/preprocess/wandb/run-20250828_132658-0x3ao7h1/files/wandb-summary.json
+2025-08-28 13:27:04,144 INFO    SenderThread:70770 [sender.py:transition_state():613] send defer: 8
+2025-08-28 13:27:04,145 DEBUG   SenderThread:70770 [sender.py:send_request():405] send_request: poll_exit
+2025-08-28 13:27:04,145 DEBUG   HandlerThread:70770 [handler.py:handle_request():146] handle_request: defer
+2025-08-28 13:27:04,145 INFO    HandlerThread:70770 [handler.py:handle_request_defer():172] handle defer: 8
+2025-08-28 13:27:04,146 DEBUG   SenderThread:70770 [sender.py:send_request():405] send_request: defer
+2025-08-28 13:27:04,146 INFO    SenderThread:70770 [sender.py:send_request_defer():609] handle sender defer: 8
+2025-08-28 13:27:04,146 INFO    SenderThread:70770 [job_builder.py:build():298] Attempting to build job artifact
+2025-08-28 13:27:04,147 INFO    SenderThread:70770 [job_builder.py:_get_source_type():428] is repo sourced job
+2025-08-28 13:27:04,151 INFO    SenderThread:70770 [job_builder.py:build():404] adding wandb-job metadata file
+2025-08-28 13:27:04,164 INFO    SenderThread:70770 [sender.py:transition_state():613] send defer: 9
+2025-08-28 13:27:04,165 DEBUG   HandlerThread:70770 [handler.py:handle_request():146] handle_request: defer
+2025-08-28 13:27:04,165 INFO    HandlerThread:70770 [handler.py:handle_request_defer():172] handle defer: 9
+2025-08-28 13:27:04,165 DEBUG   SenderThread:70770 [sender.py:send():378] send: artifact
+2025-08-28 13:27:04,535 DEBUG   HandlerThread:70770 [handler.py:handle_request():146] handle_request: poll_exit
+2025-08-28 13:27:04,799 INFO    wandb-upload_1:70770 [upload_job.py:push():89] Uploaded file /home/matt-the-ratt/.local/share/wandb/artifacts/staging/tmp1jylob2q
+2025-08-28 13:27:04,815 INFO    Thread-12 :70770 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification/starter/preprocess/wandb/run-20250828_132658-0x3ao7h1/files/output.log
+2025-08-28 13:27:04,883 INFO    wandb-upload_0:70770 [upload_job.py:push():89] Uploaded file /home/matt-the-ratt/.local/share/wandb/artifacts/staging/tmpsynopebh
+2025-08-28 13:27:05,828 INFO    SenderThread:70770 [sender.py:send_artifact():1443] sent artifact job-https___github.com_MattTheRatt2022_genre_classification.git_starter_preprocess_run.py - {'id': 'QXJ0aWZhY3Q6MTk5NjI4MzYyOQ==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjcyNzA2OTUyMg==', 'latestArtifact': None}}
+2025-08-28 13:27:05,829 DEBUG   SenderThread:70770 [sender.py:send_request():405] send_request: defer
+2025-08-28 13:27:05,829 INFO    SenderThread:70770 [sender.py:send_request_defer():609] handle sender defer: 9
+2025-08-28 13:27:05,829 INFO    SenderThread:70770 [dir_watcher.py:finish():358] shutting down directory watcher
+2025-08-28 13:27:06,816 INFO    SenderThread:70770 [dir_watcher.py:finish():388] scan: /home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification/starter/preprocess/wandb/run-20250828_132658-0x3ao7h1/files
+2025-08-28 13:27:06,817 INFO    SenderThread:70770 [dir_watcher.py:finish():402] scan save: /home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification/starter/preprocess/wandb/run-20250828_132658-0x3ao7h1/files/conda-environment.yaml conda-environment.yaml
+2025-08-28 13:27:06,817 INFO    SenderThread:70770 [dir_watcher.py:finish():402] scan save: /home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification/starter/preprocess/wandb/run-20250828_132658-0x3ao7h1/files/wandb-metadata.json wandb-metadata.json
+2025-08-28 13:27:06,817 INFO    SenderThread:70770 [dir_watcher.py:finish():402] scan save: /home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification/starter/preprocess/wandb/run-20250828_132658-0x3ao7h1/files/output.log output.log
+2025-08-28 13:27:06,817 INFO    SenderThread:70770 [dir_watcher.py:finish():402] scan save: /home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification/starter/preprocess/wandb/run-20250828_132658-0x3ao7h1/files/requirements.txt requirements.txt
+2025-08-28 13:27:06,817 INFO    SenderThread:70770 [dir_watcher.py:finish():402] scan save: /home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification/starter/preprocess/wandb/run-20250828_132658-0x3ao7h1/files/config.yaml config.yaml
+2025-08-28 13:27:06,818 INFO    SenderThread:70770 [dir_watcher.py:finish():402] scan save: /home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification/starter/preprocess/wandb/run-20250828_132658-0x3ao7h1/files/wandb-summary.json wandb-summary.json
+2025-08-28 13:27:06,825 INFO    SenderThread:70770 [sender.py:transition_state():613] send defer: 10
+2025-08-28 13:27:06,829 DEBUG   SenderThread:70770 [sender.py:send_request():405] send_request: poll_exit
+2025-08-28 13:27:06,836 DEBUG   HandlerThread:70770 [handler.py:handle_request():146] handle_request: defer
+2025-08-28 13:27:06,836 INFO    HandlerThread:70770 [handler.py:handle_request_defer():172] handle defer: 10
+2025-08-28 13:27:06,837 DEBUG   SenderThread:70770 [sender.py:send_request():405] send_request: defer
+2025-08-28 13:27:06,837 INFO    SenderThread:70770 [sender.py:send_request_defer():609] handle sender defer: 10
+2025-08-28 13:27:06,837 INFO    SenderThread:70770 [file_pusher.py:finish():172] shutting down file pusher
+2025-08-28 13:27:07,062 INFO    wandb-upload_0:70770 [upload_job.py:push():131] Uploaded file /home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification/starter/preprocess/wandb/run-20250828_132658-0x3ao7h1/files/output.log
+2025-08-28 13:27:07,118 INFO    wandb-upload_1:70770 [upload_job.py:push():131] Uploaded file /home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification/starter/preprocess/wandb/run-20250828_132658-0x3ao7h1/files/conda-environment.yaml
+2025-08-28 13:27:07,195 INFO    wandb-upload_3:70770 [upload_job.py:push():131] Uploaded file /home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification/starter/preprocess/wandb/run-20250828_132658-0x3ao7h1/files/config.yaml
+2025-08-28 13:27:07,235 INFO    wandb-upload_4:70770 [upload_job.py:push():131] Uploaded file /home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification/starter/preprocess/wandb/run-20250828_132658-0x3ao7h1/files/wandb-summary.json
+2025-08-28 13:27:07,255 INFO    wandb-upload_2:70770 [upload_job.py:push():131] Uploaded file /home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification/starter/preprocess/wandb/run-20250828_132658-0x3ao7h1/files/requirements.txt
+2025-08-28 13:27:07,456 INFO    Thread-11 (_thread_body):70770 [sender.py:transition_state():613] send defer: 11
+2025-08-28 13:27:07,457 DEBUG   HandlerThread:70770 [handler.py:handle_request():146] handle_request: defer
+2025-08-28 13:27:07,457 INFO    HandlerThread:70770 [handler.py:handle_request_defer():172] handle defer: 11
+2025-08-28 13:27:07,458 DEBUG   SenderThread:70770 [sender.py:send_request():405] send_request: defer
+2025-08-28 13:27:07,458 INFO    SenderThread:70770 [sender.py:send_request_defer():609] handle sender defer: 11
+2025-08-28 13:27:07,458 INFO    SenderThread:70770 [file_pusher.py:join():178] waiting for file pusher
+2025-08-28 13:27:07,459 INFO    SenderThread:70770 [sender.py:transition_state():613] send defer: 12
+2025-08-28 13:27:07,459 DEBUG   HandlerThread:70770 [handler.py:handle_request():146] handle_request: defer
+2025-08-28 13:27:07,459 INFO    HandlerThread:70770 [handler.py:handle_request_defer():172] handle defer: 12
+2025-08-28 13:27:07,460 DEBUG   SenderThread:70770 [sender.py:send_request():405] send_request: defer
+2025-08-28 13:27:07,460 INFO    SenderThread:70770 [sender.py:send_request_defer():609] handle sender defer: 12
+2025-08-28 13:27:07,460 INFO    SenderThread:70770 [file_stream.py:finish():595] file stream finish called
+2025-08-28 13:27:07,531 INFO    SenderThread:70770 [file_stream.py:finish():599] file stream finish is done
+2025-08-28 13:27:07,531 INFO    SenderThread:70770 [sender.py:transition_state():613] send defer: 13
+2025-08-28 13:27:07,531 DEBUG   HandlerThread:70770 [handler.py:handle_request():146] handle_request: defer
+2025-08-28 13:27:07,532 INFO    HandlerThread:70770 [handler.py:handle_request_defer():172] handle defer: 13
+2025-08-28 13:27:07,532 DEBUG   SenderThread:70770 [sender.py:send_request():405] send_request: defer
+2025-08-28 13:27:07,532 INFO    SenderThread:70770 [sender.py:send_request_defer():609] handle sender defer: 13
+2025-08-28 13:27:07,533 INFO    SenderThread:70770 [sender.py:transition_state():613] send defer: 14
+2025-08-28 13:27:07,533 DEBUG   HandlerThread:70770 [handler.py:handle_request():146] handle_request: defer
+2025-08-28 13:27:07,533 INFO    HandlerThread:70770 [handler.py:handle_request_defer():172] handle defer: 14
+2025-08-28 13:27:07,534 DEBUG   SenderThread:70770 [sender.py:send():378] send: final
+2025-08-28 13:27:07,534 DEBUG   SenderThread:70770 [sender.py:send():378] send: footer
+2025-08-28 13:27:07,534 DEBUG   SenderThread:70770 [sender.py:send_request():405] send_request: defer
+2025-08-28 13:27:07,534 INFO    SenderThread:70770 [sender.py:send_request_defer():609] handle sender defer: 14
+2025-08-28 13:27:07,535 DEBUG   HandlerThread:70770 [handler.py:handle_request():146] handle_request: poll_exit
+2025-08-28 13:27:07,536 DEBUG   SenderThread:70770 [sender.py:send_request():405] send_request: poll_exit
+2025-08-28 13:27:07,537 DEBUG   HandlerThread:70770 [handler.py:handle_request():146] handle_request: poll_exit
+2025-08-28 13:27:07,537 DEBUG   SenderThread:70770 [sender.py:send_request():405] send_request: poll_exit
+2025-08-28 13:27:07,538 DEBUG   HandlerThread:70770 [handler.py:handle_request():146] handle_request: server_info
+2025-08-28 13:27:07,539 DEBUG   SenderThread:70770 [sender.py:send_request():405] send_request: server_info
+2025-08-28 13:27:07,543 DEBUG   HandlerThread:70770 [handler.py:handle_request():146] handle_request: get_summary
+2025-08-28 13:27:07,544 DEBUG   HandlerThread:70770 [handler.py:handle_request():146] handle_request: sampled_history
+2025-08-28 13:27:07,544 DEBUG   HandlerThread:70770 [handler.py:handle_request():146] handle_request: internal_messages
+2025-08-28 13:27:07,545 DEBUG   HandlerThread:70770 [handler.py:handle_request():146] handle_request: job_info
+2025-08-28 13:27:07,605 DEBUG   SenderThread:70770 [sender.py:send_request():405] send_request: job_info
+2025-08-28 13:27:07,606 INFO    MainThread:70770 [wandb_run.py:_footer_history_summary_info():3851] rendering history
+2025-08-28 13:27:07,606 INFO    MainThread:70770 [wandb_run.py:_footer_history_summary_info():3883] rendering summary
+2025-08-28 13:27:07,606 INFO    MainThread:70770 [wandb_run.py:_footer_sync_info():3810] logging synced files
+2025-08-28 13:27:07,607 DEBUG   HandlerThread:70770 [handler.py:handle_request():146] handle_request: shutdown
+2025-08-28 13:27:07,607 INFO    HandlerThread:70770 [handler.py:finish():869] shutting down handler
+2025-08-28 13:27:08,545 INFO    WriterThread:70770 [datastore.py:close():296] close: /home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification/starter/preprocess/wandb/run-20250828_132658-0x3ao7h1/run-0x3ao7h1.wandb
+2025-08-28 13:27:08,606 INFO    SenderThread:70770 [sender.py:finish():1521] shutting down sender
+2025-08-28 13:27:08,606 INFO    SenderThread:70770 [file_pusher.py:finish():172] shutting down file pusher
+2025-08-28 13:27:08,606 INFO    SenderThread:70770 [file_pusher.py:join():178] waiting for file pusher

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification/starter/mlruns/0/3e164f2284b24a098eea9a4095513a49/artifacts
+end_time: 1756401582606
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3e164f2284b24a098eea9a4095513a49
+run_name: skillful-koi-524
+run_uuid: 3e164f2284b24a098eea9a4095513a49
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756401580135
+status: 4
+tags: []
+user_id: matt-the-ratt
