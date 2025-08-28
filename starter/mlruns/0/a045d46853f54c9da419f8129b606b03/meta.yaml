@@ -1,0 +1,15 @@
+artifact_uri: file:///home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification/starter/mlruns/0/a045d46853f54c9da419f8129b606b03/artifacts
+end_time: 1756403109032
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a045d46853f54c9da419f8129b606b03
+run_name: loud-elk-339
+run_uuid: a045d46853f54c9da419f8129b606b03
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756403105593
+status: 4
+tags: []
+user_id: matt-the-ratt

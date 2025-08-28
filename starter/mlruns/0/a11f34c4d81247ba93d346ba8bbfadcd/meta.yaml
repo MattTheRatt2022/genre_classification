@@ -1,0 +1,15 @@
+artifact_uri: file:///home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification/starter/mlruns/0/a11f34c4d81247ba93d346ba8bbfadcd/artifacts
+end_time: 1756401335641
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a11f34c4d81247ba93d346ba8bbfadcd
+run_name: classy-lamb-438
+run_uuid: a11f34c4d81247ba93d346ba8bbfadcd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756401333208
+status: 4
+tags: []
+user_id: matt-the-ratt

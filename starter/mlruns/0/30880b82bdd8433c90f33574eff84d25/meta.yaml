@@ -1,0 +1,15 @@
+artifact_uri: file:///home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification/starter/mlruns/0/30880b82bdd8433c90f33574eff84d25/artifacts
+end_time: 1756402563882
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 30880b82bdd8433c90f33574eff84d25
+run_name: unruly-perch-678
+run_uuid: 30880b82bdd8433c90f33574eff84d25
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756402560161
+status: 4
+tags: []
+user_id: matt-the-ratt

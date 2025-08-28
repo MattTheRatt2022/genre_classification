@@ -1,0 +1,15 @@
+artifact_uri: file:///home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification/starter/mlruns/0/2ee50b2117704883aa1bc0dbcda29645/artifacts
+end_time: 1756403993444
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2ee50b2117704883aa1bc0dbcda29645
+run_name: gentle-cub-972
+run_uuid: 2ee50b2117704883aa1bc0dbcda29645
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756403980113
+status: 3
+tags: []
+user_id: matt-the-ratt

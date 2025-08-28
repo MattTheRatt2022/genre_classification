@@ -1,0 +1,15 @@
+artifact_uri: file:///home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification/starter/mlruns/0/fc2223283b054a2098067381a51afb26/artifacts
+end_time: 1756404437494
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fc2223283b054a2098067381a51afb26
+run_name: worried-skink-776
+run_uuid: fc2223283b054a2098067381a51afb26
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756404324607
+status: 3
+tags: []
+user_id: matt-the-ratt

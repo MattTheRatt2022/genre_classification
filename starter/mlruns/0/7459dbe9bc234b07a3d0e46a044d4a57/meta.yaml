@@ -1,0 +1,15 @@
+artifact_uri: file:///home/matt-the-ratt/miniconda3/envs/udacity/Udacity-Pipline-Projects/Final-Exercise/genre_classification/starter/mlruns/0/7459dbe9bc234b07a3d0e46a044d4a57/artifacts
+end_time: 1756404341784
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7459dbe9bc234b07a3d0e46a044d4a57
+run_name: illustrious-boar-666
+run_uuid: 7459dbe9bc234b07a3d0e46a044d4a57
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756404328186
+status: 3
+tags: []
+user_id: matt-the-ratt
